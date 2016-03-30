@@ -1,0 +1,88 @@
+# MyBot.run AUTOIT .gitignore file
+
+# Global Files
+/.project
+*.ini
+*.log
+*.orig
+*.png
+*.jpg
+*.exe
+
+# Global Folders
+[Tt]emplates/
+[Tt]emp/
+[Bb]ackup/
+
+# Obsolete Files and Folders
+[Ll]oots/
+[Aa]llTowns/
+
+# Exclusion Curl (used for PushBullet)
+![Cc]url.exe
+
+# Exclusion Language .ini's
+![Ll]anguages/*.ini
+
+# Exclusion Images/Icon
+![Ii]mages/logo.jpg
+![Ii]mages/2arrow.jpg
+![Ii]mages/MyBot.ico
+![Ii]mages/Button/Traps.png
+![Ii]mages/Button/Xbow.png
+![Ii]mages/Button/Inferno.png
+![Ii]mages/Button/BoostBarrack.png
+![Ii]mages/Button/BoostAllBarracks.png
+![Ii]mages/Button/BarrackBoosted.png
+![Ii]mages/Resources/Collect.png
+![Ii]mages/Resources/loot_cart.png
+![Ii]mages/Resources/Tomb.png
+![Ii]mages/Resources/Tomb1.png
+![Ii]mages/Resources/Tomb2.png
+![Ii]mages/Resources/bush.png
+![Ii]mages/Resources/mushroom.png
+![Ii]mages/Resources/tree.png
+![Ii]mages/Resources/tree2.png
+![Ii]mages/Resources/trunk.png
+![Ii]mages/Resources/trunk2.png
+![Ii]mages/Resources/gembox.png
+
+# Debug
+[Ll]ib/[Dd]ebug/
+[Ll]ib/[Tt]est.txt
+EnableMBRDebug.txt
+
+# SQL (not in use)
+*.sqlite3
+*.db
+
+# Release files
+LastVersion*.txt
+TestVersion*.txt
+# Exclusion Release
+!MyBot.run.exe
+!COCBot/[Ff]orecast/vcredist_x86.exe
+!COCBot/[Ff]orecast/wkhtmltoimage.exe
+!MyBot.run.exe
+!MyBot.run - BlueStacks.exe
+!MyBot.run - BlueStacks2.exe
+!MyBot.run - Droid4X.exe
+!MyBot.run - Droid4X_1.exe
+!MyBot.run - Droid4X_2.exe
+!MyBot.run - Droid4X_3.exe
+!MyBot.run - MEmu.exe
+!MyBot.run - MEmu_1.exe
+!MyBot.run - MEmu_2.exe
+!MyBot.run - MEmu_3.exe
+
+![Pp]rofiles/MyVillage/config.ini
+![Pp]rofiles/BlueStacks/config.ini
+![Pp]rofiles/BlueStacks2/config.ini
+![Pp]rofiles/MEmu/config.ini
+![Pp]rofiles/MEmu_1/config.ini
+![Pp]rofiles/MEmu_2/config.ini
+![Pp]rofiles/MEmu_3/config.ini
+![Pp]rofiles/Droid4X/config.ini
+![Pp]rofiles/Droid4X_1/config.ini
+![Pp]rofiles/Droid4X_2/config.ini
+![Pp]rofiles/Droid4X_3/config.ini
